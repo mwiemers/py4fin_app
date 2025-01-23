@@ -78,7 +78,7 @@ st.markdown(
 
 """)
 
-st.image("img/vs_code_install.png", width=400)
+st.image("img/vs_code_install.png", width=600)
 
 st.markdown("""
             
