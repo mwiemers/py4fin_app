@@ -66,29 +66,46 @@ Run the installer.
 
 st.markdown(
     """
+### Installing VS Code
+
+1. To install VS Code, go to [this website](https://code.visualstudio.com/download) to download the installer.
+    - Windows: select the the x64 option for Intel CPUs and the Arm64 option for ARM CPUs.
+    - MacBook: select the Intel Chip version if your MacBook has an Intel CPU and the Apple Silicon if your MacBook has an M1/M2/M3 processor.
+
+        You can find out about the CPU of your MacBook by clicking on the Apple logo in the top-left corner of the screen and then select About this Mac.
+
+2. Run the installer.
+
+""")
+
+st.image("img/vs_code_install.png", width=400)
+
+st.markdown("""
+            
 ### Setting up VS Code
     
 1. Open VS Code
-2. On the left-hand menu open the Extensions section.
+    - Windows: Hit the Windows key and type visual studio code. Hit Enter.
+    - MacBook: Hit Cmd+Space key and type visual studio code. Hit Enter.
+
+2. In VS Code, on the left-hand menu open the Extensions section.
 """)        
 
 st.image("img/vs_code_extensions.png", width=300)
 
 st.markdown(
     """
-3. Search and install the Python and Jupyter extension.
-    - Search in the search bar for python and then click install.
-    - Search for jupyter and click install.
+3. Search for the Python extension and click install.
+4. Search for the Jupyter extension and click install.
 """)       
 
 st.image("img/vs_code_extensions2.png", width=300)
-
 
 
 st.markdown(
     """
 ### Next step
 Go to the Downloading Workshop Materials section and follow the instructions to download the Jupyter Notebooks, which contain the exercises 
- for the Python for Accounting workshops, on your personal laptop.
+ for the Python for Finance workshops, on your personal laptop.
 """
 )
