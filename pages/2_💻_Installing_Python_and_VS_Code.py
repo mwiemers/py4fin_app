@@ -74,14 +74,15 @@ st.markdown(
 
         You can find out about the CPU of your MacBook by clicking on the Apple logo in the top-left corner of the screen and then select About this Mac.
 
-2. Run the installer.
-
 """)
 
 st.image("img/vs_code_install.png", width=600)
 
 st.markdown("""
+
+2. Run the installer.
             
+                        
 ### Setting up VS Code
     
 1. Open VS Code
